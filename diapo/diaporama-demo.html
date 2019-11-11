@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+	<title> Troisième diaporama</title>
+	<meta charset="UTF-8" />
+
+	<link href="style/style-diapo.css" type="text/css" rel="stylesheet" />
+
+
+
+
+</head>
+
+<body>
+	<div class="diaporama">
+		<img name="img" src="images/image.jpg" alt="un diaporama" id="diapo" />
+	</div>
+
+	<div id="buttons">
+		<button id="startButton">Start</button>
+		délai <input id="diapoStep" type="text" value="2" /> s
+		<!--<button id="stopButton">Stop</button>-->
+		<button id="previousButton">&lt;</button>
+		diapo n°<input id="idxImage" type="text" value="" />
+		<button id="nextButton">&gt;</button>
+	</div>
+</body>
+
+<head>
+	<!-- chargement du script -->
+	<script src="scripts/tabImages.js"></script>
+	<script src="scripts/diapoScript.js"></script>
+</head>
+
+</html>
